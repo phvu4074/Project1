@@ -56,6 +56,9 @@ label{
   height: 70px; 
   background-color: black;
   border: 5px outset #49e6de;
+  font-weight: bold;
+  color: #49e6de;
+  font-size: 18px;
 }
 
 
