@@ -26,7 +26,7 @@ h2 {
 
 h3 {
   font-weight: bold;
-  color: black;
+  color: #49e6de;
   font-size: 18px;
 }
 
@@ -47,6 +47,9 @@ label{
   height: 180px; 
   background-color: black;
   border: 5px outset #49e6de;
+  font-weight: bold;
+  color: #49e6de;
+  font-size: 18px;
 }
 
 .column2 {
@@ -84,6 +87,9 @@ label{
   height: 200px; 
   background-color:black;
   border: 5px outset #49e6de;
+  font-weight: bold;
+  color: #49e6de;
+  font-size: 18px;
 }
 
 .Story2 {
@@ -92,6 +98,9 @@ label{
   height: 160px; 
   background-color:black;
   border: 5px outset #49e6de;
+  font-weight: bold;
+  color: #49e6de;
+  font-size: 18px;
 }
 
 /* Clear floats after the columns */
