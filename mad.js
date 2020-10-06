@@ -4,11 +4,11 @@ function runSpeechRecognition() {
 	var recognition = new SpeechRecognition();
 	
 	recognition.onstart = function() {
-		action.innerHTML = "<small>start...</small>";
+		action.innerHTML = "<small>start</small>";
 	};
 	
 	recognition.onspeechend = function() {
-		action.innerHTML = "<small>stop...</small>";
+		action.innerHTML = "<small>stop</small>";
 		recognition.stop();
 	}
 	
@@ -26,11 +26,11 @@ function runSpeechRecognition2() {
 	var recognition = new SpeechRecognition();
 	
 	recognition.onstart = function() {
-		action.innerHTML = "<small>start...</small>";
+		action.innerHTML = "<small>start</small>";
 	};
 	
 	recognition.onspeechend = function() {
-		action.innerHTML = "<small>stop...</small>";
+		action.innerHTML = "<small>stop</small>";
 		recognition.stop();
 	}
 	
@@ -48,11 +48,11 @@ function runSpeechRecognition3() {
 	var recognition = new SpeechRecognition();
 	
 	recognition.onstart = function() {
-		action.innerHTML = "<small>start...</small>";
+		action.innerHTML = "<small>start</small>";
 	};
 	
 	recognition.onspeechend = function() {
-		action.innerHTML = "<small>stop...</small>";
+		action.innerHTML = "<small>stop</small>";
 		recognition.stop();
 	}
 	
@@ -70,11 +70,11 @@ function runSpeechRecognition4() {
 	var recognition = new SpeechRecognition();
 	
 	recognition.onstart = function() {
-		action.innerHTML = "<small>start...</small>";
+		action.innerHTML = "<small>start</small>";
 	};
 	
 	recognition.onspeechend = function() {
-		action.innerHTML = "<small>stop...</small>";
+		action.innerHTML = "<small>stop</small>";
 		recognition.stop();
 	}
 	
@@ -106,11 +106,11 @@ function runSpeechRecognition5() {
 	var recognition = new SpeechRecognition();
 	
 	recognition.onstart = function() {
-		action.innerHTML = "<small>start...</small>";
+		action.innerHTML = "<small>start</small>";
 	};
 	
 	recognition.onspeechend = function() {
-		action.innerHTML = "<small>stop...</small>";
+		action.innerHTML = "<small>stop</small>";
 		recognition.stop();
 	}
 	
@@ -128,11 +128,11 @@ function runSpeechRecognition6() {
 	var recognition = new SpeechRecognition();
 	
 	recognition.onstart = function() {
-		action.innerHTML = "<small> start...</small>";
+		action.innerHTML = "<small> start</small>";
 	};
 	
 	recognition.onspeechend = function() {
-		action.innerHTML = "<small> stop...</small>";
+		action.innerHTML = "<small> stop</small>";
 		recognition.stop();
 	}
 	
@@ -150,11 +150,11 @@ function runSpeechRecognition7() {
 	var recognition = new SpeechRecognition();
 	
 	recognition.onstart = function() {
-		action.innerHTML = "<small> start...</small>";
+		action.innerHTML = "<small> start</small>";
 	};
 	
 	recognition.onspeechend = function() {
-		action.innerHTML = "<small> stop...</small>";
+		action.innerHTML = "<small> stop</small>";
 		recognition.stop();
 	}
 	
@@ -172,11 +172,11 @@ function runSpeechRecognition8() {
 	var recognition = new SpeechRecognition();
 	
 	recognition.onstart = function() {
-		action.innerHTML = "<small> start...</small>";
+		action.innerHTML = "<small> start</small>";
 	};
 	
 	recognition.onspeechend = function() {
-		action.innerHTML = "<small> stop...</small>";
+		action.innerHTML = "<small> stop</small>";
 		recognition.stop();
 	}
 	
