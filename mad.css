@@ -4,8 +4,8 @@ body {
 
 button {
   padding:10px;
-  background-color:#6a67ce;
-  color: #FFFFFF;
+  background-color:#49e6de;
+  color: black;
   border: 1px;
   cursor:pointer;
   border-radius: 5px;
@@ -13,20 +13,20 @@ button {
 
 h1 {
   font-weight: bold;
-  color: #6a67ce;
+  color: #49e6de;
   font-size: 30px;
 }
 
 
 h2 {
   font-weight: bold;
-  color: #6a67ce;
+  color: #49e6de;
   font-size: 20px;
 }
 
 h3 {
   font-weight: bold;
-  color: #FFFFFF;
+  color: black;
   font-size: 18px;
 }
 
@@ -35,56 +35,56 @@ h3 {
 }
 
 
-/* Create three equal columns that floats next to each other */
+
 .column {
   float: left;
   width: 200px;
   padding: 10px;
-  height: 180px; /* Should be removed. Only for demonstration */
-  background-color:#aaa;
-  border: 5px outset #6a67ce;
+  height: 180px; 
+  background-color: black;
+  border: 5px outset #49e6de;
 }
 
 .column2 {
   float: left;
   width: 320px;
   padding: 5px;
-  height: 70px; /* Should be removed. Only for demonstration */
-  background-color:#aaa;
-  border: 5px outset #6a67ce;
+  height: 70px; 
+  background-color: black;
+  border: 5px outset #49e6de;
 }
 
 
 .title{
   padding: 10px;
   width: 400px;
-  height: 80px; /* Should be removed. Only for demonstration */
-  background-color:#aaa;
-  border: 5px outset #6a67ce;
+  height: 80px; 
+  background-color: black;
+  border: 5px outset #49e6de;
 }
 
 .title2{
   padding: 5px;
   width: 640px;
-  height: 70px; /* Should be removed. Only for demonstration */
-  background-color:#aaa;
-  border: 5px outset #6a67ce;
+  height: 70px; 
+  background-color:black;
+  border: 5px outset #49e6de;
 }
 
 .Story {
   padding: 10px;
   width: 400px;
-  height: 200px; /* Should be removed. Only for demonstration */
-  background-color:#aaa;
-  border: 5px outset #6a67ce;
+  height: 200px; 
+  background-color:black;
+  border: 5px outset #49e6de;
 }
 
 .Story2 {
   padding: 5px;
   width: 640px;
-  height: 160px; /* Should be removed. Only for demonstration */
-  background-color:#aaa;
-  border: 5px outset #6a67ce;
+  height: 160px; 
+  background-color:black;
+  border: 5px outset #49e6de;
 }
 
 /* Clear floats after the columns */
