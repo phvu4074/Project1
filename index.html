@@ -1,0 +1,98 @@
+<!doctype html>
+  <head>
+    <link rel="stylesheet" href="mad.css">
+    <title>Mad Libs</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class = "row">
+        <div class ="title">
+          <h1>Mad Libs (Portrait)</h1>
+        </div>
+      </div>
+      <div class = "row">
+        <div class = "column">
+          <h2>Enter a Plural Noun</h2>
+          <p><button type = "button" onclick="runSpeechRecognition()">Speech to Text</button> &nbsp; <span id = "action"></span></p>
+          <input type="text" id="noun">
+        </div>
+
+        <div class = "column">
+          <h2>Enter an Adjective</h2>
+          <p><button type="button" onclick="runSpeechRecognition2()">Speech to Text</button> &nbsp; <span id="action2"></span></p>
+          <input type="text" id="adj">
+        </div>
+      </div>
+
+
+      <div class = "row">
+        <div class = "column">
+          <h2>Enter a Name</h2>
+          <p><button type="button" onclick="runSpeechRecognition3()">Speech to Text</button> &nbsp; <span id="action3"></span></p>
+          <input type="text" id="name">
+        </div>
+
+        <div class = "column">
+          <h2>Enter a Number</h2>
+          <p><button type="button" onclick="runSpeechRecognition4()">Speech to Text</button> &nbsp; <span id="action4"></span></p>
+          <input type="text" id="number">
+        </div>
+      </div>
+
+      <div class = "Story">
+        <div class = "row">
+          <h2>Generated Story: 
+            <h3><span id="story"></span></h3>
+          </h2>
+          <button id="lib-button">Lib it!</button>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+
+
+
+    <div class="container2">
+      <div class = "row">
+        <div class ="title2">
+          <h1>Mad Libs (Landscape)</h1>
+        </div>
+      </div>
+      <div class = "row">
+        <div class = "column2">
+          <button type = "button" onclick="runSpeechRecognition5()">Speak</button> <span id = "action5"></span>
+          <input type="text" id="noun2" placeholder="Enter a Plural Noun">
+        </div>
+
+        <div class = "column2">
+          <button type="button" onclick="runSpeechRecognition6()">Speak</button><span id="action6"></span>
+          <input type="text" id="adj2" placeholder="Enter an Adjective">
+        </div>
+      </div>
+
+
+      <div class = "row">
+        <div class = "column2">
+          <button type="button" onclick="runSpeechRecognition7()">Speak</button><span id="action7"></span>
+          <input type="text" id="name2" placeholder="Enter a Name">
+        </div>
+
+        <div class = "column2">
+          <button type="button" onclick="runSpeechRecognition8()">Speak</button><span id="action8"></span>
+          <input type="text" id="number2" placeholder="Enter a Number">
+        </div>
+      </div>
+
+      <div class = "Story2">
+        <div class = "row">
+          <h2>Generated Story: 
+            <h3><span id="story2"></span></h3>
+          </h2>
+          <button id="lib-button2">Lib it!</button>
+        </div>
+      </div>
+    </div>
+    <script src="mad.js"></script>
+  </body>
+</html>
