@@ -16,7 +16,7 @@
         <div class = "column">
           <label for = "pnoun1" lang="en" >Enter a Plural Noun
           <p><button type = "button" onclick="runSpeechRecognition()">Speech to Text</button> &nbsp; <span id = "action"></span></p>
-          <label for="lnoun" class="sr-only">Name</label>
+          <label for="lnoun" class="sr-only">Noun</label>
           <input type="text" id="noun">
       	</label>
         </div>
@@ -24,7 +24,7 @@
         <div class = "column">
           <label for="adj2" lang="en">Enter an Adjective
           <p lang="en"><button type="button" onclick="runSpeechRecognition2()">Speech to Text</button> &nbsp; <span id="action2"></span></p>
-          <label for="ladj" class="sr-only">Name</label>
+          <label for="ladj" class="sr-only">Adj</label>
           <input type="text" id="adj">
         </label>
         </div>
@@ -72,25 +72,37 @@
 
       <div class = "row">
         <div class = "column2">
+        <label>
           <button lang="en" type = "button" onclick="runSpeechRecognition5()">Speak</button> <span id = "action5"></span>
+          <label for="lnoun2" class="sr-only">Noun2</label>
           <input type="text" id="noun2" placeholder="Enter a Plural Noun">
+        </label>
         </div>
 
         <div class = "column2">
+        <label>
           <button lang="en" type="button" onclick="runSpeechRecognition6()">Speak</button><span id="action6"></span>
+          <label for="ladj2" class="sr-only">Adj2</label>
           <input lang="en" type="text" id="adj2" placeholder="Enter an Adjective">
+        </label>
         </div>
       </div>
 
       <div class = "row">
         <div class = "column2">
+        <label>
           <button lang="en" type="button" onclick="runSpeechRecognition7()">Speak</button><span id="action7"></span>
+          <label for="lname2" class="sr-only">Name2</label>
           <input lang="en" type="text" id="name2" placeholder="Enter a Name">
+        </label>
         </div>
 
         <div class = "column2">
+        <label>
           <button lang="en" type="button" onclick="runSpeechRecognition8()">Speak</button><span id="action8"></span>
+          <label for="lnumber2" class="sr-only">Number2</label>
           <input lang="en" type="text" id="number2" placeholder="Enter a Number">
+        </label>
         </div>
       </div>
 
